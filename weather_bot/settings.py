@@ -8,7 +8,6 @@ https://docs.djangoproject.com/en/1.10/ref/settings/
 """
 
 import os
-
 def get_env_variable(var_name):
 	try:
 		return os.environ[var_name]
@@ -35,7 +34,6 @@ PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 DEBUG = True
 
 ALLOWED_HOSTS = [
-#	'peaceful-harbor-51552.herokuapp.com',
 	'nameless-mountain-25684.herokuapp.com',
 	'127.0.0.1'
 ]
